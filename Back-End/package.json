@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server-Index.js",
+  "scripts": {
+    "start": "node src/Server-Index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/Server-Index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "youtube-dl": "^3.0.2",
+    "youtube-search": "^1.1.4"
+  }
+}
